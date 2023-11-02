@@ -12,6 +12,8 @@
 		9AB700092AF36C1400370A4D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9AB700082AF36C1400370A4D /* Assets.xcassets */; };
 		9AB7000C2AF36C1400370A4D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9AB7000B2AF36C1400370A4D /* Preview Assets.xcassets */; };
 		9AB700132AF36C2400370A4D /* zoo.json in Resources */ = {isa = PBXBuildFile; fileRef = 9AB700122AF36C2400370A4D /* zoo.json */; };
+		9AB700172AF374D400370A4D /* loadJson.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AB700162AF374D300370A4D /* loadJson.swift */; };
+		9AB700192AF382FA00370A4D /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AB700182AF382FA00370A4D /* DetailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +23,8 @@
 		9AB700082AF36C1400370A4D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9AB7000B2AF36C1400370A4D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		9AB700122AF36C2400370A4D /* zoo.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = zoo.json; sourceTree = "<group>"; };
+		9AB700162AF374D300370A4D /* loadJson.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = loadJson.swift; sourceTree = "<group>"; };
+		9AB700182AF382FA00370A4D /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +51,8 @@
 			children = (
 				9AB700042AF36C1300370A4D /* i5s_zooApp.swift */,
 				9AB700062AF36C1300370A4D /* ContentView.swift */,
+				9AB700182AF382FA00370A4D /* DetailView.swift */,
+				9AB700162AF374D300370A4D /* loadJson.swift */,
 				9AB700122AF36C2400370A4D /* zoo.json */,
 				9AB700082AF36C1400370A4D /* Assets.xcassets */,
 				9AB7000A2AF36C1400370A4D /* Preview Content */,
@@ -142,6 +148,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				9AB700072AF36C1300370A4D /* ContentView.swift in Sources */,
+				9AB700192AF382FA00370A4D /* DetailView.swift in Sources */,
+				9AB700172AF374D400370A4D /* loadJson.swift in Sources */,
 				9AB700052AF36C1300370A4D /* i5s_zooApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
